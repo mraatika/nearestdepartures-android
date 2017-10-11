@@ -1,0 +1,29 @@
+{
+    "name": "info.julkisilla",
+    "displayName": "Julkisilla.info",
+    "version": "1.3.0",
+    "description": "An Apache Cordova wrapper for julkisilla.info application",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Miitri Raatikainen",
+    "license": "AGPLv3",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-compat": "^1.0.0",
+        "cordova-plugin-geolocation": "^2.4.3",
+        "cordova-plugin-splashscreen": "^4.0.3",
+        "cordova-plugin-whitelist": "^1.3.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-geolocation": {},
+            "cordova-plugin-splashscreen": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}

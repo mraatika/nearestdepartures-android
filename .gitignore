@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# production
+/platfrom/android/build
+
+# webapp
+/www
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+
